@@ -73,7 +73,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [ str(BASE_DIR.joinpath('frontend/build')), ],
+        'DIRS': [ str(BASE_DIR.joinpath('build')), ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -136,7 +136,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 #STATICFILES_DIRS = [ str(BASE_DIR.joinpath('frontend/build', 'static'))  ]
 
-STATIC_ROOT = str(BASE_DIR.joinpath('frontend/build', 'static'))
+STATIC_ROOT = str(BASE_DIR.joinpath('build', 'static'))
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
