@@ -32,7 +32,9 @@ SECRET_KEY = env.str('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool('DEBUG', default=False)
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'django-react.up.railway.app']
+DOMAIN_NAME = env.str('DOMAIN_NAME', default='')
+
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', DOMAIN_NAME]
 
 
 # Application definition
@@ -148,5 +150,6 @@ AUTH_USER_MODEL = 'accounts.CustomUser'
 # CORS
 CORS_ORIGIN_ALLOW_ALL = True
 
-CSRF_TRUSTED_ORIGINS = ['https://django-react.up.railway.app']
+if DOMAIN_NAME != '':
+    CSRF_TRUSTED_ORIGINS = [f'https://{DOMAIN_NAME}', ] # railway
 
