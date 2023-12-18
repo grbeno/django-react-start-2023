@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "324597e35217e671314d34b795d7f1a7631f4bf4b7c1d1f76d1a785411fad7ef"
+            "sha256": "29d61b972e8036f5fad932cd2c73b3c23b517fd8696679a58bddb331f7db0805"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -58,11 +58,19 @@
         },
         "environs": {
             "hashes": [
-                "sha256:1e549569a3de49c05f856f40bce86979e7d5ffbbc4398e7f338574c220189124",
-                "sha256:a76307b36fbe856bdca7ee9161e6c466fd7fcffc297109a118c59b54e27e30c9"
+                "sha256:41aa9d9fdb52953d3083638dca76b157e32714ffc67251d855ade241dee8a3f8",
+                "sha256:a8968e7d5b2b656cc17f6273d4b312654397ffa7ab0875c33c36699e1106a374"
             ],
             "index": "pypi",
-            "version": "==9.5.0"
+            "version": "==10.0.0"
+        },
+        "gunicorn": {
+            "hashes": [
+                "sha256:3213aa5e8c24949e792bcacfc176fef362e7aac80b76c56f6b5122bf350722f0",
+                "sha256:88ec8bff1d634f98e61b9f65bc4bf3cd918a90806c6f5c48bc5603849ec81033"
+            ],
+            "index": "pypi",
+            "version": "==21.2.0"
         },
         "marshmallow": {
             "hashes": [
@@ -196,6 +204,14 @@
             ],
             "markers": "sys_platform == 'win32'",
             "version": "==2023.3"
+        },
+        "whitenoise": {
+            "hashes": [
+                "sha256:8998f7370973447fac1e8ef6e8ded2c5209a7b1f67c1012866dbcd09681c3251",
+                "sha256:b1f9db9bf67dc183484d760b99f4080185633136a273a03f6436034a41064146"
+            ],
+            "index": "pypi",
+            "version": "==6.6.0"
         }
     },
     "develop": {}
