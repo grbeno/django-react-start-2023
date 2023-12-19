@@ -17,9 +17,9 @@
 - ``` $ cd <project-name> ```
 - ``` $ heroku login ```
 - ``` $ heroku git:remote <project-name> ```
-- If heroku does not support the python version which you would like to use in runtime.txt then ignore the file (.slugignore) and use the default on the platform.
+- If heroku does not support the python version which you would like to use in runtime.txt then ignore it (.slugignore) and use the default on the platform.
 - ``` $ git push heroku main ```
-- Overview > heroku postgres > settings > database credetentials
+- Overview > heroku postgres > settings > database credentials
 - Copy URI to DATABASE_URL variable in config vars
 - ``` $ heroku run python manage.py migrate ```
  
