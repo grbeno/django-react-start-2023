@@ -1,5 +1,4 @@
 ## Django-React sample/start project
----
 
  ### Local development
 
@@ -36,6 +35,7 @@
   
 - Initialize your own git repo and commit/push to github
  ### Deploying to Railway
+ --
  - Open Railway UI
  - Add new project
  - Add postgres as database
@@ -49,6 +49,7 @@
    - Add url to CSRF_TRUSTED_ORIGINS
 - Create a nixpacks.toml file  > ``` providers = ["node", "python"] ```
 ### Deploying to Heroku
+--
 - Open Heroku UI
 - ``` $ cd <project-name> ```
 - ``` $ heroku login ```
