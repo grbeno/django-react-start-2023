@@ -1,7 +1,7 @@
 ## Django-React sample/start project
 
  ### Local development
-
+ ---
 - Download the zip file
 - Create your own virtual environment on your project directory and install the required libraries/packages. (pipenv) 
 
