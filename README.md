@@ -12,6 +12,7 @@
  - Set DOMAIN_NAME variable then (config/settings.py):
    - Add the domain to ALLOWED_HOST
    - Add url to CSRF_TRUSTED_ORIGINS
+- Create a nixpacks.toml file  > ``` providers = ["node", "python"] ```
 ### Deploying to Heroku
 - Open Heroku UI
 - ``` $ cd <project-name> ```
