@@ -1,4 +1,4 @@
-## Django-React sample/start project
+## Django-React template/start project
 
  ### Local development
  ---
